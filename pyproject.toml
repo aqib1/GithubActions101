@@ -1,5 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "github-actions-101"
 version = "0.1.0"
 requires-python = ">=3.14"
+readme = "README.md"
 dependencies = []
+
+[project.scripts]
+github-actions-101 = "main:main"
+
+[tool.setuptools]
+py-modules = ["main", "dmas"]
