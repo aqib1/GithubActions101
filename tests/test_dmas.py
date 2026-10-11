@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum(1, 2), 3)
 
     def test_mul_returns_product_of_two_integers(self) -> None:
-        self.assertEqual(mul(2, 3), 7)    
+        self.assertEqual(mul(2, 3), 6)    
 
 
 if __name__ == "__main__":
