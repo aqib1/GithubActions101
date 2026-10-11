@@ -1,0 +1,10 @@
+name: main
+
+on: workflow_dispatch ## This means we can manually trigger this workflow from the Actions tab in GitHub
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: "Hello World"
+          run: echo "Hello World!!"
